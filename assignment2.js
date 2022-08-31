@@ -1,3 +1,4 @@
+/*
 Q1:
 Calculator
 Ans:
@@ -187,3 +188,4 @@ const Triangle_Check = (A,B,C) => {
       return ("obtuse");
     }  
   };
+  */

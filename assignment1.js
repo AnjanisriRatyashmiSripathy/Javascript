@@ -1,3 +1,4 @@
+/*
 Q1:
 Add 2Numbers
 Ans:
@@ -57,3 +58,4 @@ const Average = (A, B, C) =>
   let num=(A+B+C)/3
  return parseFloat(num);
 };
+*/

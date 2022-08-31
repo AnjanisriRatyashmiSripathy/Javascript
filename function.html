@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+        let x = () =>
+        {
+            console.log("Hello");
+        }
+        function add(a,b)
+        {
+            console.log("sum is" + " " + a+b);
+        }
+        add(3,4);
+        function fact(n)
+        {
+            let f=1;
+            for (let i=1; i<=n; i++)
+            {
+                f *=i;
+            }
+            return f;
+        }
+        let a=fact(5);
+        console.log(a);
+        var d = 21;
+            girl ();
+            console.log(d)
+            function girl() {
+                console.log(d);
+                var d = 20;}
+    </script>
+    <p>Question5:</p>
+    <pre>
+        "Print output: 
+            var x = 21;
+            var girl = function () {
+                console.log(x);
+                var x = 20;
+            };
+            girl ();"
+    </pre>
+    <p>Ans:undefined</p>
+    <hr>
+    <p>Question6:</p>
+    <pre>
+        "Print output: 
+            var x = 21;
+            girl ();
+            console.log(x)
+            function girl() {
+                console.log(x);
+                var x = 20;
+            };"
+    </pre>
+    <p>Ans:
+        undefined <br> 21
+    </p>
+    <p>Question7</p>
+    <pre>
+        "Print output
+            Var x = 21;
+            a();
+            b();
+            console.log(a);
+            a = function() {
+                x = 20;
+                console.log(x);
+                };
+            b = function() {
+                x = 40;
+                console.log(x);
+                };"
+    </pre>
+    <p>Ans:
+        20 <br> 40
+    </p>
+</body>
+</html>
